@@ -1,5 +1,5 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Kombai Blog",
   "url": "https://lumen.alxshelepenok.com",
   "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   "copyright": "© All rights reserved.",
@@ -22,9 +22,9 @@
     }
   ],
   "author": {
-    "name": "John Doe",
-    "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "name": "Kombai",
+    "photo": "/logo.svg",
+    "bio": "Make Frontend Development Fun Again",
     "contacts": {
       "rss": "",
       "email": "",
