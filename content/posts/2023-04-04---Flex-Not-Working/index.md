@@ -1,5 +1,5 @@
 ---
-title: "Flex Properties “Not Working”? Check for these 6 issues reported 1000s of time on Stack Overflow"
+title: "Flex Properties “Not Working”? Check for these 7 issues reported 1000s of time on Stack Overflow"
 date: "2023-04-04T22:40:32.169Z"
 template: "post"
 draft: false
@@ -8,6 +8,7 @@ category: "problems"
 tags:
   - "CSS"
   - "Flexbox"
+description: ""
 ---
 
 Flexbox is easily one of the most powerful developments in CSS ever. But, its implementation has been confounding frontend and fullstack devs ever since it was introduced.
@@ -16,9 +17,10 @@ In the last year alone, 6,000+ new threads were posted on Stack Overflow with qu
 
 Similarly, Reddit, Quora, and every other platform that developers frequently use are also riddled with devs struggling to get this very powerful but often confusing concept to work for them.
 
-We read through a few hundred threads across platforms to find these [x] issues that crop up most frequently when devs think that flex is not working for them.
+We read through a few hundred threads across platforms to find these 7 issues that crop up most frequently when devs think that Flex is not working for them.
 
-If you think some flex related properties are not working in your code, go through these checks quickly to make sure that you are not making the same errors as those thousands of devs :-)
+If you think some flex-related properties are not working in your code, go through these checks quickly to make sure that you are not making the same errors as those thousands of devs :-)
+
 
 ### 1. Are you using the correct syntax?
 
@@ -26,9 +28,8 @@ Make sure you are using the correct and latest CSS syntax throughout the code, p
 
 It’s often easy to overlook small errors in CSS selectors or property names because default IDEs don’t do a good job at highlighting errors.
 
-You’d be surprised how many times we have discovered `display:flexbox` instead of `display:flex` while reviewing our own code!
 
-![](file:///C:/Users/Ashutosh%20Mishra/Downloads/fdgfdsdfsdfUntitled-2023-03-06-1154.png)
+You’d be surprised how many times we have discovered `display:flexbox` instead of `display:flex` while reviewing our own code!
 
 Consider using a CSS linting tool like [Stylelint](https://stylelint.io/), which is great at spotting unintentional errors and enforcing best practices.
 
@@ -37,8 +38,6 @@ Consider using a CSS linting tool like [Stylelint](https://stylelint.io/), which
 ### 2. Are you using 'display:flex' at the correct element (immediate parent)?
 
 Remember that `display:flex` makes the direct children of the container it’s applied to, flex items. So, you’ll have to apply `display:flex` to the immediate parent of the items you want to distribute using flex.
-
-![](../../Downloads/Untitlesdfsdd-2023-03-06-1154.png)
 
 Also, this applies to every level of your div structure. So, if you want to flex an element within a flex element, you must do it twice for both containers. For example, see the code below.
 
@@ -56,7 +55,7 @@ Also, this applies to every level of your div structure. So, if you want to flex
 
 ### 3.Are you using flex-grow, flex-shrink and flex-basis correctly?
 
-Flex grow, Flex shrink, and Flex basis turns out to be one of the most confusing flexbox properties for new CSS developers. Every now and then, there is someone unable to figure out the right working code around these properties. Let's take a quick look into these properties first-
+Flex grow, Flex shrink, and Flex basis turns out to be one of the most confusing Flexbox properties for new CSS developers. There is always someone unable to figure out the right working code around these properties. Let's take a quick look into these properties first-
 
 `flex-grow`: This property defines the ability of a flex item to grow beyond its initial size to fill any available space within a flex container.
 
@@ -66,7 +65,7 @@ Flex grow, Flex shrink, and Flex basis turns out to be one of the most confusing
 
 Here are few real examples from Stack Overflow where developers got it wrong-
 
-1. In this [example](https://stackoverflow.com/questions/71399363/how-exactly-does-flex-basis-work-in-combination-with-flex-grow), the code has three flex items under a div of 300px width. Each flex item has `flex-grow: 1` and the first item has `flex-basis: 50%`, rest of the two have `flex-basis: 0`.
+1. In this [example](https://stackoverflow.com/questions/71399363/how-exactly-does-flex-basis-work-in-combination-with-flex-grow), the code has three flex items nested under a div of 300px width. Each flex item has `flex-grow: 1` and the first item has `flex-basis: 50%`, rest of the two have `flex-basis: 0`.
 
 Now, what do you think the width of the first item would be?
 
@@ -90,9 +89,7 @@ If you want to understand these properties in much more detail, check out this [
 
 ### 4. Are media queries overriding some of your desired properties?
 
-If you are building a UI where certain elements are to be same irrespective of the device and screen, make sure that media queries are not overriding those default properties that need to work on each screen.
-
-![](../../Downloads/sdfsdfUntitled-2023-03-06-1154.png)
+If you are building a UI where certain elements are to be the same irrespective of the device and screen, make sure that media queries are not overriding those default properties that need to work on each screen.
 
 In this [example](https://stackoverflow.com/questions/74006260/why-flex-basis-100-is-not-working-in-this-case-what-is-the-solution), the property `flex: 0 0 100%;` was overridden by `flex: 0 0 calc(50% - 1rem);` in the media query and therefore the user was not getting the desired output in the UI.
 
@@ -106,11 +103,9 @@ Here's an [example](https://stackoverflow.com/questions/36247140/why-dont-flex-i
 
 ### 6. If you are using justify-content, remember that default width is auto:
 
-One important thing to keep in mind is that if you are not explicitly giving a fixed width to an element, then the default width is auto.
+One important thing to keep in mind is that if you are not explicitly giving a fixed width to an element, then the default width is always auto.
 
 An element with the `width:auto` will take up the smallest needed space for the content and will shrink or expand accordingly to fit its content.
-
-![](../../Downloads/tyrtytUntitled-2023-03-06-1154.png)
 
 In such [cases](https://stackoverflow.com/questions/73002394/css-flex-property-justify-content-not-working), justify-content will not work as intended because all the available space has already been covered by the content itself and there is no extra space for justify-content to align the flex items. This problem can be solved by giving a fixed width to the element.
 
