@@ -1,7 +1,7 @@
 {
   "title": "Kombai Blog",
   "url": "https://kombai-blog.vercel.app/",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "subtitle": "",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -23,7 +23,7 @@
   ],
   "author": {
     "name": "Kombai",
-    "photo": "/logo.svg",
+    "photo": "/logo.png",
     "bio": "Make Frontend Development Fun Again",
     "contacts": {
       "rss": "",
