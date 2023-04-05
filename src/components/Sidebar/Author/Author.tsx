@@ -25,13 +25,13 @@ const Author = ({ author, isIndex }: Props) => (
     <div className={styles.titleContainer}>
       {isIndex ? (
         <h1 className={styles.title}>
-          <Link className={styles.link} to="/">
+          <Link className={styles.link} to="https://kombai.io">
             {author.name}
           </Link>
         </h1>
       ) : (
         <h2 className={styles.title}>
-          <Link className={styles.link} to="/">
+          <Link className={styles.link} to="https://kombai.io">
             {author.name}
           </Link>
         </h2>
