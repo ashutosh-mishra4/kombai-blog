@@ -28,11 +28,6 @@ exports[`Feed renders correctly 1`] = `
     <p>
       An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
     </p>
-    <a
-      href="/posts/perfecting-the-art-of-perfection"
-    >
-      Read
-    </a>
   </div>
   <div>
     <div>
@@ -60,11 +55,6 @@ exports[`Feed renders correctly 1`] = `
     <p>
       German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.
     </p>
-    <a
-      href="/posts/johannes-gutenberg"
-    >
-      Read
-    </a>
   </div>
   <div>
     <div>
@@ -90,11 +80,6 @@ exports[`Feed renders correctly 1`] = `
       </a>
     </h2>
     <p />
-    <a
-      href="/posts/humane-typography-in-the-digital-age"
-    >
-      Read
-    </a>
   </div>
 </div>
 `;
