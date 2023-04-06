@@ -11,23 +11,23 @@ describe("ThemeSwitcher", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test("dark theme is set correctly", () => {
+  test("light theme is set correctly", () => {
     window.localStorage.setItem(
       "diesel:theme-atom",
-      JSON.stringify({ mode: "dark" }),
+      JSON.stringify({ mode: "light" }),
     );
 
     const { getByTitle } = testUtils.renderWithCoilProvider(<ThemeSwitcher />);
 
     window.localStorage.removeItem("diesel:theme-atom");
 
-    expect(getByTitle("dark")).not.toBeNull();
+    expect(getByTitle("light")).not.toBeNull();
   });
 
-  test("light theme is set correctly", () => {
+  test("dark theme is set correctly", () => {
     const { getByTitle } = testUtils.renderWithCoilProvider(<ThemeSwitcher />);
 
-    expect(getByTitle("light")).not.toBeNull();
+    expect(getByTitle("dark")).not.toBeNull();
   });
 
   test("theme switching works correctly", () => {
@@ -35,12 +35,12 @@ describe("ThemeSwitcher", () => {
       <ThemeSwitcher />,
     );
 
-    expect(getByTitle("light")).not.toBeNull();
+    expect(getByTitle("dark")).not.toBeNull();
 
     const button = getByRole("button");
 
     fireEvent.click(button);
 
-    expect(getByTitle("dark")).not.toBeNull();
+    expect(getByTitle("light")).not.toBeNull();
   });
 });

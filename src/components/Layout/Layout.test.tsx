@@ -13,22 +13,22 @@ describe("Layout", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test("dark theme is set correctly", () => {
+  test("light theme is set correctly", () => {
     window.localStorage.setItem(
       "diesel:theme-atom",
-      JSON.stringify({ mode: "dark" }),
+      JSON.stringify({ mode: "light" }),
     );
 
     testUtils.renderWithCoilProvider(<LayoutWithChildren />);
 
     window.localStorage.removeItem("diesel:theme-atom");
 
-    expect(document.documentElement.className).toBe("dark");
+    expect(document.documentElement.className).toBe("light");
   });
 
-  test("light theme is set correctly", () => {
+  test("dark theme is set correctly", () => {
     testUtils.renderWithCoilProvider(<LayoutWithChildren />);
 
-    expect(document.documentElement.className).toBe("light");
+    expect(document.documentElement.className).toBe("dark");
   });
 });
