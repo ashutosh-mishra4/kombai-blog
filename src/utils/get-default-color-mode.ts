@@ -1,15 +1,15 @@
 const getDefaultColorMode = (): "dark" | "light" => {
   if (typeof window === "undefined") {
-    return "light";
+    return "dark";
   }
 
-  const mql = window.matchMedia("(prefers-color-scheme: dark)");
+  const mql = window.matchMedia("(prefers-color-scheme: light)");
   const hasMediaQueryPreference = typeof mql.matches !== "undefined";
   if (hasMediaQueryPreference) {
-    return mql.matches ? "dark" : "light";
+    return mql.matches ? "light" : "dark";
   }
 
-  return "light";
+  return "dark";
 };
 
 export default getDefaultColorMode;
