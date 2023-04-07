@@ -17,6 +17,15 @@ export default {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Poppins\:300,400,500,600,700`, // you can change the font-weight as per your requirement
+        ],
+        display: "swap",
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "content",
