@@ -6,14 +6,18 @@ html {
 }
 
 body {
+  align-items: center;
   background: var(--color-page-background);
   color: var(--color-typographic-base-font);
+  display: flex;
+  flex-direction: column;
   font-family: $typographic-font-family;
   font-size: $typographic-base-font-size;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
   line-height: $typographic-base-line-height;
-  margin: 0 0 0 calc(100vw - 100%);
+  // margin: 0 0 0 calc(100vw - 100%);
   text-rendering: optimizelegibility;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
