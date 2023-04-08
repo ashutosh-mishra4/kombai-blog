@@ -71,7 +71,7 @@ Here are 2 Stack Overflow examples on how these properties work-
 
 #### Output
 
-- In the above code, 50% of 300px, i.e, 150px is immediately to the first item because of `flex-basis: 50%;`
+- In the above code, 50% of 300px, i.e, 150px is immediately assigned to the first item because of `flex-basis: 50%;`
 
 - The remaining 150px space is initially empty because the `flex-basis` of the other two items is 0. Later on, it's divided into all three items equally because each of them has `flex-grow: 1`, making them 200px, 50px, and 50px respectively.
 
@@ -85,7 +85,7 @@ Here are 2 Stack Overflow examples on how these properties work-
 
 - In the above code, the flex items have `flex-grow: 1` for equal distribution of space but don't have `flex-basis` and therein lies the point. When you miss to assign a specific `flex-basis` value to your flex items, its default value becomes auto and the width distribution will be done according to the content size.
 
-- To fix this issue, also add `flex-basis: 0`. Flex basis will ensure that there is no default distribution width and the entirety of it then will be distributed equally among the items because of _flex-grow: 1_.
+- To fix this issue, also add `flex-basis: 0`. Flex basis will ensure that there is no default distribution of width and the entirety of it then will be distributed equally among the items because of _flex-grow: 1_.
 
 If you want to understand these properties in much more detail, check out this [guide](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/) by CSS Tricks.
 
