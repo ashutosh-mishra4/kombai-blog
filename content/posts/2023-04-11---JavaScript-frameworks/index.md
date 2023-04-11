@@ -8,10 +8,10 @@ category: "javascript"
 tags:
   - "JavaScript"
   - "JavaScript Frameworks"
-description: "Learn about the top JavaScript frameworks for web app development, and choose the right one for your project."
+description: ""
 ---
 
-***TLDR**: JavaScript frameworks have revolutionized the way web applications are built and have significantly reduced the development time and effort required to build complex applications. In this article, we explore the top 10 JavaScript frameworks based on factors like popularity, ease of learning, dev satisfaction, job market demand, etc.*
+**\*TLDR**: JavaScript frameworks have revolutionized the way web applications are built and have significantly reduced the development time and effort required to build complex applications. In this article, we explore the top 10 JavaScript frameworks based on factors like popularity, ease of learning, dev satisfaction, job market demand, etc.\*
 
 The whole 2010 decade was the era of JavaScript frameworks. Many great frameworks that we know today were born in this decade that have captured the lives of modern developers.
 
@@ -35,7 +35,7 @@ To come up with our list of the top JavaScript frameworks, we considered several
 
 - **Job market:** We considered the current job market and the demand for developers skilled in each framework.
 
-- **Interest over time**: We looked at *Google Trends* and *NPM Trends* to see how each framework's interest has evolved over time.
+- **Interest over time**: We looked at _Google Trends_ and _NPM Trends_ to see how each framework's interest has evolved over time.
 
 ## Overview of the best JavaScript frameworks
 
@@ -71,7 +71,7 @@ Here are two great courses for you to start learning Angular- [Angular - The Com
 
 It takes a different approach to build web applications compared to traditional frameworks like React and Angular. Rather than focusing on building reusable components, Svelte is designed to be more lightweight and performant. It does this by compiling components at build time, rather than at runtime, which can lead to faster load times and better performance.
 
-Svelte was the 2nd most loved web framework and the most loved JavaScript framework in the Stack Overflow Developer Survey 2022. It is also the highest paying JavaScript framework and is used by large companies like GoDaddy, 1Password, The New York Times, etc. 
+Svelte was the 2nd most loved web framework and the most loved JavaScript framework in the Stack Overflow Developer Survey 2022. It is also the highest paying JavaScript framework and is used by large companies like GoDaddy, 1Password, The New York Times, etc.
 
 Use Svelte when your application requires high interactivity and real-time updates and you want to use a framework that provides efficient rendering and optimized performance for your applications.
 
@@ -87,8 +87,7 @@ Vue is used by top companies like Netflix, Adobe, Gitlab, Behance, etc. It was a
 
 Use Vue when you want to use a framework that has a gentle learning curve and is easy to pick up for beginners and provides a more flexible and customizable approach to development.
 
-Here are two great resources for you to start learning Vue- [Vue JS Crash Course](https://youtu.be/qZXt1Aom3Cs) by Brad Traversy and  courses by [Vue Mastery](https://www.vuemastery.com/courses).
-
+Here are two great resources for you to start learning Vue- [Vue JS Crash Course](https://youtu.be/qZXt1Aom3Cs) by Brad Traversy and courses by [Vue Mastery](https://www.vuemastery.com/courses).
 
 ### 5. Ember.js
 
@@ -148,7 +147,7 @@ Here are two great resources for you to start learning Solid- [Learn Alpine JS](
 
 ## Conclusion
 
-Today, React and Angular are the most popular JavaScript frontend frameworks but it doesn't mean that the other frameworks used on the list  aren't useful or effective for certain use cases.
+Today, React and Angular are the most popular JavaScript frontend frameworks but it doesn't mean that the other frameworks used on the list aren't useful or effective for certain use cases.
 
 Some frameworks may be better suited for specific projects or development teams, depending on factors such as the project requirements, team size, and technical expertise.
 
@@ -156,9 +155,4 @@ For example, at Kombai, we use Solid because it's lightweight, secure, and provi
 
 Before building your next project, try exploring various options and you may end up with a choice that might not be obvious but better for the future of your project.
 
-*Happy Coding!*
-
-
-
-
-
+_Happy Coding!_
