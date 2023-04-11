@@ -13,7 +13,7 @@ tags:
 description: ""
 ---
 
-**_TLDR:_** _The options to choose a different JavaScript framework has never been as wide as today. In this React vs Vue article, we are going to dig deep into these two popular JavaScript frameworks and find out which one should you use in your next project._
+**_TLDR:_** _The options to choose a different JavaScript framework has never been as wide as today. In this React vs Angular article, we are going to dig deep into these two popular JavaScript frameworks and find out which one should you use in your next project._
 
 The debate over JavaScript frameworks is a never-ending topic. As more options emerge, the competition to dominate the market share intensifies.
 
