@@ -105,9 +105,9 @@ Last 5 years of data on Google Trends data shows a tough battle between React an
 
 ### 9. Mobile App Development
 
-React Native is a popular mobile development framework that is based on React. React Native allows developers to build mobile apps for iOS and Android using JavaScript and React.
+[React Native](https://reactnative.dev/) is a popular mobile development framework that is based on React. React Native allows developers to build mobile apps for iOS and Android using JavaScript and React.
 
-Vue also had a mobile development framework, Vue Native, which was designed to make it easier for developers to build native mobile apps using Vue and it provided a number of benefits over other mobile development frameworks.
+Vue also had a mobile development framework, [Vue Native](https://vue-native.io/), which was designed to make it easier for developers to build native mobile apps using Vue and it provided a number of benefits over other mobile development frameworks.
 
 Unfortunately, Vue Native had not seen the same level of adoption as React Native and has been deprecated since November 2021 due to the team's limited resources and the fact that the project did not gain enough traction among the community.
 
