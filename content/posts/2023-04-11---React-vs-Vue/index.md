@@ -13,9 +13,11 @@ tags:
 description: ""
 ---
 
-Comparisons among JavaScript frameworks is not new. As more options appear, the fight to capture the highest market share is always there. 
+**\*TLDR:** The options to choose a different JavaScript framework has never been as wide as today. In this React vs Vue article, we are going to dig deep into these two popular JavaScript frameworks and find out which one should you use in your next project.\*
 
-Today we are going to compare two of the most popular JavaSript frameworks React and Vue based on various factors including Popularity, Tooling, Job Market, etc.
+Comparisons among JavaScript frameworks is not new. As more options appear, the fight to capture the highest market share is always there.
+
+Today we are going to compare two of the most popular JavaScript frameworks React and Vue based on various factors including Popularity, Tooling, Job Market, etc.
 
 ## React vs Vue: Quick overview
 
@@ -41,7 +43,7 @@ Vue is highly modular and can be easily integrated into existing projects. It pr
 
 ### 1. Popularity
 
-React and Vue, both are popular frameworks used by developers worldwide. According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#web-frameworks-and-technologies), React is the most popular frontend JavaScript framework and Vue has secured 4th position in popularity among the best frontend JavaScript frameworks. 
+React and Vue, both are popular frameworks used by developers worldwide. According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#web-frameworks-and-technologies), React is the most popular frontend JavaScript framework and Vue has secured 4th position in popularity among the best frontend JavaScript frameworks.
 
 React is currently the [most popular](https://github.com/facebook/react) JavaScript library on GitHub, with over 206,000 stars and over 1,600 contributors. Vue, on the other hand, has over 203,000 stars on [Vue2 repo](https://github.com/vuejs/vue) with over 350 contributors and over 30,000 stars on [Vue3](https://github.com/vuejs/core) with an approximately similar number of contributors.
 
@@ -59,7 +61,7 @@ This has led to the development of a strong and dedicated community of developer
 
 ### 3. Tooling
 
-Both React and Vue have a range of tools and libraries available, which makes it easier for developers to build complex applications. 
+Both React and Vue have a range of tools and libraries available, which makes it easier for developers to build complex applications.
 
 React's extensive ecosystem includes popular libraries such as [Redux](https://redux.js.org/), [React Router](https://reactrouter.com/en/main), [Next.js](https://nextjs.org/), and more. Redux is a predictable state container that helps manage the state of an application, while React Router provides a simple way to navigate between different parts of a web application. Next.js, on the other hand, is a popular framework that helps build server-rendered React applications.
 
@@ -75,7 +77,7 @@ However, React's virtual DOM is generally considered to be faster than Vue's vir
 
 ### 5. Learning curve
 
-React and Vue both have a learning curve, but Vue is generally considered easier to learn. Vue's template-based syntax and simpler API make it easier for developers who are new to web development. 
+React and Vue both have a learning curve, but Vue is generally considered easier to learn. Vue's template-based syntax and simpler API make it easier for developers who are new to web development.
 
 React has a steeper learning curve than Vue, which means that it can take longer for new developers to get up to speed. React also has a relatively complex API, which requires developers to understand concepts such as state, props, and lifecycle methods.
 
@@ -91,7 +93,7 @@ In the 2022 Stack Overflow Developer Survey, React received 68.19% score and Vue
 
 Both React and Vue are in high demand in the job market. [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks) reported that React developers are paid $69,480 on average and Vue developers are getting paid $60,148 on average.
 
-They have also secured 9th and 19th place in the list of top-paying web frameworks. 
+They have also secured 9th and 19th place in the list of top-paying web frameworks.
 
 React has over 25,000 [job listings](https://www.indeed.com/jobs?q=react) on Indeed.com. Vue, on the other hand, has got 4,500 [job listings](https://www.indeed.com/jobs?q=vue). While React has a larger job market, Vue has also seen significant growth in recent years and is becoming more popular among employers.
 
@@ -117,17 +119,4 @@ Both React and Vue are highly efficient and offer a range of features and benefi
 
 Regardless of which framework you choose, you can expect an abundance of tools and libraries at your disposal to help you build complex applications efficiently.
 
-*Happy Coding!*
-
-
-
-
-
-
-
-
-
-
-
-
-
+_Happy Coding!_
