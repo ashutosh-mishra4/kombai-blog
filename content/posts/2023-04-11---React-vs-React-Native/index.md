@@ -1,5 +1,5 @@
 ---
-title: "React vs React: How are they different?"
+title: "React vs React Native: How are they different?"
 date: "2023-04-12"
 template: "post"
 draft: false
