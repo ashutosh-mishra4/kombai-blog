@@ -85,30 +85,26 @@ React Native, introduced in 2015, also enjoys a growing ecosystem but has not ye
 
 ## Pros and Cons
 
-### React
-
-##### Pros:
+### React Pros:
 
 1. Mature and widely-used library
 2. Large community and ecosystem
 3. Easy to learn and integrate into existing projects
 4. Highly performant with the Virtual DOM
 
-##### Cons:
+### React Cons:
 
 1. Limited to web applications
 2. Requires additional libraries for routing and state management
 
-### React Native
-
-##### Pros:
+### React Native Pros:
 
 1. Cross-platform mobile app development
 2. Native-like performance and user experience
 3. Shared codebase between platforms
 4. Growing community and ecosystem
 
-##### Cons:
+### React Native Cons:
 
 1. Steeper learning curve compared to React
 2. Less mature than React, with fewer third-party libraries
