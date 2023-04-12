@@ -13,7 +13,7 @@ tags:
 description: ""
 ---
 
-**TLDR**: *Unlock the potential of JavaScript! Discover the factors that influence the time it takes to learn, explore the different stages of learning, and get tips for effective learning. Our comprehensive guide also recommends the best resources to become a skilled JavaScript developer. Don't miss out on the opportunity to enhance your skills!*
+**TLDR**: _Unlock the potential of JavaScript! Discover the factors that influence the time it takes to learn, explore the different stages of learning, and get tips for effective learning. Our comprehensive guide also recommends the best resources to become a skilled JavaScript developer. Don't miss out on the opportunity to enhance your skills!_
 
 The digital world continues to expand, and with that expansion comes a growing demand for web developers skilled in programming languages like JavaScript.
 
@@ -73,24 +73,21 @@ Learning JavaScript is not the task of a day. It will take at least a few months
 
 We have compiled a list of best resources to learn JavaScript. It includes online courses, books, interactive coding platforms and more to ensure that you have a smooth learning experience with JavaScript:
 
-1. **Mozilla Developer Network (MDN)**: MDN provides an extensive, beginner-friendly JavaScript guide with clear explanations and examples.
-2. **Codecademy**: Codecademy offers an interactive course that covers JavaScript basics, including syntax, control flow, and functions.
+1. **[Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: MDN provides an extensive, beginner-friendly JavaScript guide with clear explanations and examples.
+2. **[Codecademy](https://codecademy.com/learn/introduction-to-javascript)**: Codecademy offers an interactive course that covers JavaScript basics, including syntax, control flow, and functions.
 
-3. **FreeCodeCamp**: This platform provides a comprehensive curriculum that covers JavaScript fundamentals and includes hands-on projects and challenges.
+3. **[FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)**: This platform provides a comprehensive curriculum that covers JavaScript fundamentals and includes hands-on projects and challenges.
 
-4. **Eloquent JavaScript** by Marijn Haverbeke: This book covers the fundamentals of JavaScript and programming in general, with clear examples and exercises.
+4. **[Eloquent JavaScript](https://eloquentjavascript.net/)** by Marijn Haverbeke: This book covers the fundamentals of JavaScript and programming in general, with clear examples and exercises.
 
-5. **You Don't Know JS**: This series comprises six books, each focusing on different aspects of JavaScript. The series provides a comprehensive and in-depth exploration of JavaScript, from its fundamental concepts to advanced topics.
+5. **[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)**: This series comprises six books, each focusing on different aspects of JavaScript. The series provides a comprehensive and in-depth exploration of JavaScript, from its fundamental concepts to advanced topics.
 
-6. **Codewars**: Codewars provides coding challenges (called "kata") that help improve your JavaScript skills through problem-solving.
+6. **[Codewars](https://www.codewars.com/collections/js-code-challenges)**: Codewars provides coding challenges (called "kata") that help improve your JavaScript skills through problem-solving.
 
-7. **JavaScript: The Good Parts** by Douglas Crockford: This book covers essential JavaScript concepts and best practices, with a focus on avoiding common pitfalls.
+7. **[JavaScript: The Good Parts](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/)** by Douglas Crockford: This book covers essential JavaScript concepts and best practices, with a focus on avoiding common pitfalls.
 
 ## Final Thoughts
 
-*So, how long does it take to learn JavaScript?* I hope you have got your answer by now. Learning JavaScript is not a Sprint, it's a Marathon. Ultimately, the time it takes to learn JavaScript depends on a variety of factors, such as your programming background, time investment, learning resources, and personal learning style. Generally, it can take anywhere from a few months to over a year to become proficient in JavaScript.
+_So, how long does it take to learn JavaScript?_ I hope you have got your answer by now. Learning JavaScript is not a Sprint, it's a Marathon. Ultimately, the time it takes to learn JavaScript depends on a variety of factors, such as your programming background, time investment, learning resources, and personal learning style. Generally, it can take anywhere from a few months to over a year to become proficient in JavaScript.
 
 By understanding the different stages of learning JavaScript and utilizing the tips provided in this guide, you can optimize your learning process and set yourself up for success. Remember, the key to learning JavaScript effectively is consistent practice, patience, and perseverance.
-
-
-
