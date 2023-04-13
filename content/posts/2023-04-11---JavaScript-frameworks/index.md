@@ -145,7 +145,7 @@ Here are two great resources for you to start learning Alpine- [Learn Alpine JS]
 
 [SolidJS](https://www.solidjs.com/) is a relatively new JavaScript framework that has gained popularity in the last 2 years. It is an open-source, declarative JavaScript library for building user interfaces.
 
-![Graph showing retention ratio of SolidJS in comparison with other popular JavaScript frameworks over the last few years](./images/Solid%20Retention.png)
+![Graph showing retention ratio of SolidJS in comparison with other popular JavaScript frameworks over the last few years](./images/Solid-Retention.png)
 
 In the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), SolidJS received an impressive 90.9% retention ratio. This indicates that developers who use SolidJS really love this framework.
 
