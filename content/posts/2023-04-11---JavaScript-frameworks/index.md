@@ -49,6 +49,8 @@ React uses a component-based architecture. Components are reusable and encapsula
 
 For optimal performance, it uses Virtual DOM which is a lightweight copy of the actual DOM that React uses to keep track of changes to the UI. This allows React to update the UI efficiently without re-rendering the entire page.
 
+![Graph showing loved vs dreaded comparison of React and other popular JavaScript frameworks in 2022](./images/React.png)
+
 According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies), React is the most popular frontend JavaScript framework and is used in large products like Facebook, Netflix, Uber, Airbnb, etc.
 
 Use React if you are building a large-scale application with complex user interfaces, cross platform application, or need a flexible library that allows you to make your own decisions about project structure and architecture.
@@ -60,6 +62,8 @@ Here are two great courses for you to start learning React- [Learn React](https:
 [Angular](https://angular.io/) is a TypeScript based framework used for building web applications. Its early version AngularJS was launched by Google in 2010 which they rewrote and relaunched in 2016 as Angular.
 
 Like many other front-end frameworks, Angular uses a component-based architecture to break down user interfaces into smaller, reusable parts. It also provides a powerful two-way data binding system that allows changes to the application's data to automatically update the UI and vice versa. This makes it easy to create complex, interactive user interfaces.
+
+![Graph showing loved vs dreaded comparison of React and other popular JavaScript frameworks in 2022](./images/Angular.png)
 
 With a focus on building scalable and maintainable applications, Angular has been adopted by companies like Microsoft, Forbes, and PayPal. It is also the 2nd most popular modern frontend JavaScript framework after React.
 
@@ -73,6 +77,8 @@ Here are two great courses for you to start learning Angular- [Angular - The Com
 
 It takes a different approach to build web applications compared to traditional frameworks like React and Angular. Rather than focusing on building reusable components, Svelte is designed to be more lightweight and performant. It does this by compiling components at build time, rather than at runtime, which can lead to faster load times and better performance.
 
+![Graph showing loved vs dreaded comparison of Vue and other popular JavaScript frameworks in 2022](./images/Svelte.png)
+
 Svelte was the 2nd most loved web framework and the most loved JavaScript framework in the Stack Overflow Developer Survey 2022. It is also the highest paying JavaScript framework and is used by large companies like GoDaddy, 1Password, The New York Times, etc.
 
 Use Svelte when your application requires high interactivity and real-time updates and you want to use a framework that provides efficient rendering and optimized performance for your applications.
@@ -84,6 +90,8 @@ Here are two great courses for you to start learning Svelte- [Learn Svelte – F
 [Vue](https://vuejs.org/) is a progressive JavaScript framework for building user interfaces. It was developed by Evan You and was first released in February 2014. Vue is designed to be easy to adopt and integrate into other projects, and it has gained a lot of popularity among developers.
 
 Vue is often compared to other popular JavaScript frameworks like React and Angular, but it has its own unique features and advantages. It has a minimalistic API and requires less boilerplate code than other frameworks, which makes it easier for developers to learn and use.
+
+![Graph showing loved vs dreaded comparison of Vue and other popular JavaScript frameworks in 2022](./images/Vue.png)
 
 Vue is used by top companies like Netflix, Adobe, Gitlab, Behance, etc. It was also voted by 63.16% of developers as their most loved framework in 2022 Stack Overflow Developer Survey.
 
@@ -108,6 +116,8 @@ Here are two great resources for you to start learning Ember- [Ember.js Fundamen
 [Preact](https://preactjs.com/) is a lightweight JavaScript library for building user interfaces. It is an alternative to React, a popular library for building web applications, but with a smaller bundle size and faster performance.
 
 Preact provides many of the same features and APIs as React, including a component-based architecture, a virtual DOM for efficient updates, and a familiar syntax for defining and rendering components.
+
+![Graph showing retention ratio of Preact in comparison with other popular JavaScript frameworks over the last few years](./images/Preact.png)
 
 In the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/#tier_list), Preact received a 74% retention ratio. It also had similar stats over the last few years. This indicates that developers are generally satisfied with this framework.
 
@@ -145,7 +155,7 @@ Here are two great resources for you to start learning Alpine- [Learn Alpine JS]
 
 [SolidJS](https://www.solidjs.com/) is a relatively new JavaScript framework that has gained popularity in the last 2 years. It is an open-source, declarative JavaScript library for building user interfaces.
 
-![Graph showing retention ratio of SolidJS in comparison with other popular JavaScript frameworks over the last few years](./images/Solid-Retention.png)
+![Graph showing retention ratio of SolidJS in comparison with other popular JavaScript frameworks over the last few years](./images/Solid.png)
 
 In the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), SolidJS received an impressive 90.9% retention ratio. This indicates that developers who use SolidJS really love this framework.
 
