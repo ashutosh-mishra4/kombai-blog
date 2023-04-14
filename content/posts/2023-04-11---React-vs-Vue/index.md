@@ -121,7 +121,7 @@ Both React and Vue have seen significant growth in interest over the years. Both
 <p style="text-align: center; font">
 <em>Comparison of React and Vue on Google Trends based on data from 2018-2023</em></p>
 
-Last 5 years of data on Google Trends data shows a tough battle between React and Vue to acquire users' interests. However, in the last 1 year, React has gained an upper edge and has appeared more in searches than Vue.
+Last 5 years of data on Google Trends data shows a close battle between React and Vue to acquire users' interests. However, in the last 1 year, React has gained an upper edge and has appeared more in searches than Vue.
 
 ### 9. Mobile App Development
 
