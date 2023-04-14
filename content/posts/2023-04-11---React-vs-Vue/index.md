@@ -104,7 +104,7 @@ In the 2022 Stack Overflow Developer Survey, React received 68.19% score and Vue
 ![Graph showing average pay of React and Vue developers from the Stack Overflow Developer Survey 2022](./images/react-vue-average-pay.png)
 
 <p style="text-align: center; font">
-<em>List of top paying frontend frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks">State of JS Survey 2022</a></em></p>
+<em>List of top paying web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks">State of JS Survey 2022</a></em></p>
 
 Both React and Vue are in high demand in the job market. [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks) reported that React developers are paid $69,480 on average and Vue developers are getting paid $60,148 on average.
 
