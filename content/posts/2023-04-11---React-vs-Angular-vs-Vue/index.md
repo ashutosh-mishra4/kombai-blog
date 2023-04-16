@@ -13,6 +13,7 @@ tags:
   - "Vue"
 description: ""
 ---
+
 **TLDR**: _The choices for JavaScript frameworks have never been broader than today. In this React vs Angular vs Vue article, we will delve into these three popular JavaScript frameworks and determine which one you should use in your next project._
 
 As the JavaScript ecosystem continues to evolve, developers are faced with a vast array of frameworks and libraries to choose from. Today, we will compare three most popular JavaScript frameworks: React, Angular, and Vue. We will discuss various factors such as popularity, tooling, job market, and more to help you make an informed decision.
@@ -44,6 +45,11 @@ Vue uses a component-based architecture similar to React and offers a virtual DO
 ## Detailed Comparison of React, Angular, and Vue
 
 ### 1. Popularity
+
+![Graph showing most popular web frameworks from Stack Overflow Developer Survey 2022](./images/most-popular-tech.png)
+
+<p style="text-align: center">
+<em>List of most popular web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies">Stack Overflow Developer Survey 2022</a></em></p>
 
 According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies), React is the most popular frontend JavaScript framework with 42.62% votes, whereas Angular and Vue stands with 20.39% and 18.82% votes.
 
@@ -86,15 +92,30 @@ On the other hand, Vue is known for its simplicity and ease of use. Its syntax c
 
 According to the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/#tier_list), React and Vue have high developer satisfaction ratings, with React having an 83% retention ratio and Vue having an 77% retention ratio. Angular has a lower retention ratio of 43%, indicating that developers who have used Angular may be less satisfied with their experience compared to those who have used React or Vue.
 
-Even in the list of Most Loved Technologies of [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies), React and Vue were much ahead of Angular. On one side, React and Vue are loved by 68.19% and 63.16% developers, Angular, on the other hand, received only 21.01% love from developers. 
+![Graph showing most loved vs dreaded web frameworks from Stack Overflow Developer Survey 2022](./images/loved-dreaded.png)
+
+<p style="text-align: center">
+<em>List of most loved vs dreaded web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies">Stack Overflow Developer Survey 2022</a></em></p>
+
+Even in the list of Most Loved Technologies of [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies), React and Vue were ahead of Angular. On one side, React and Vue are loved by 68.19% and 63.16% developers, Angular, on the other hand, received 52.27% votes from developers.
 
 ### 7. Job Market
 
 React and Angular are currently in high demand in the job market, with numerous job listings on various job platforms. Vue, while not as prevalent in the job market as React or Angular, has seen a steady increase in demand.
 
+![Graph showing most loved vs dreaded web frameworks from Stack Overflow Developer Survey 2022](./images/top-paying-tech.png)
+
+<p style="text-align: center">
+<em>List of top paying web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks">Stack Overflow Developer Survey 2022</a></em></p>
+
 According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks), React developers earn an average of $69,480 per year, Angular developers earn an average of $60,528 per year, and Vue developers earn an average of $60,148 per year.
 
 ### 8. Interest Over Time
+
+![Graph showing Google Trends comparison of React, Angular, and Vue from 2018-2023](./images/google-trends.png)
+
+<p style="text-align: center">
+<em>Google Trends comparison of React, Angular, and Vue from 2018-2023</em></p>
 
 Google Trends data from the past one year shows that React has consistently maintained a higher level of interest compared to Angular and Vue.
 
@@ -110,12 +131,14 @@ Vue, on the other hand, has NativeScript-Vue, which is a community-driven initia
 
 ## React vs Angular vs Vue: Which one is better for your use case?
 
-React, Angular, and Vue are all powerful and efficient frameworks that offer a range of features and benefits. The choice between them depends on your project requirements, familiarity with the frameworks, and personal preferences.
+React, Angular, and Vue, all have large communities and developers who use them cite their own specific reasons why they like these frameworks. Devs who prefer React often cite these [reasons](https://epicreact.dev/why-i-love-react/) for their preference- explicit state updates, JSX over templates, hooks etc.
 
-If you are building a large-scale application and require a mature, well-established ecosystem with better tooling, React or Angular may be the best choice for you. React is known for its flexibility and vast ecosystem, while Angular offers a comprehensive set of built-in tools and features.
+On the other hand, devs who prefer Angular cite these [reasons](https://medium.com/@jacobfriesen/why-we-chose-angular-over-react-e633b9d5d155) for their preference - consistent standard components, writing less code, keeping HTML separate from JavaScript etc.
 
-On the other hand, if you value simplicity, ease of use, and excellent performance, Vue might be the better option. Vue is known for its lower learning curve and accessible syntax, making it an attractive choice for developers who are new to web development or those who prefer a more straightforward approach.
+Similarly, Vue developers also have their own preferences. It includes [simplicity](https://dev.to/gautemeekolsen/why-i-prefer-vue-over-react-3jm6), [high performance](https://betterprogramming.pub/when-to-use-vue-over-react-9a4e0f01e064) etc.
 
-Consider the factors discussed in this article, such as popularity, tooling, job market, and developer satisfaction, to make an informed decision on which framework to use for your next project.
+In general, if you are building a large-scale application and require a framework with mature, flexible, and well-established ecosystem, then React may be your best choice. On the other hand, if you don't want to spend much time figuring out tools and need a highly opinionated framework that comes with all the tooling built-in, then Angular may be the best choice for you. However, if you need a framework that is easy to learn, simple to use, high performant, and has a huge community around it, then Vue may be your best choice.
 
-*Happy Coding!*
+Regardless of which framework you choose, you can expect an abundance of tools and libraries at your disposal to help you build complex applications efficiently.
+
+_Happy Coding!_
