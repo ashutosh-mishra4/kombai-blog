@@ -13,11 +13,11 @@ tags:
 description: ""
 ---
 
-**_TLDR:_** _The options to choose a different JavaScript framework have never been as wide as today. In this React vs Svelte article, we are going to dig deep into these two popular JavaScript frameworks and find out which one should you use in your next project._
+**_TLDR:_** _In this article, we compare React and Svelte, the popular JavaScript frameworks, in terms of popularity, maturity, tooling, performance, learning curve, developer satisfaction, job market, interest over time, and mobile app development. React leads in popularity, job market, and mobile app development, while Svelte has a lower learning curve, high performance, and better developer satisfaction. Both frameworks have strong communities and are highly rated by developers. React may be better for large-scale applications, while Vue is ideal for those seeking a simpler framework with a lower learning curve._
 
-As the JavaScript ecosystem continues to evolve, developers are faced with an ever-growing array of frameworks and libraries to choose from.
+In this comprehensive comparison of React and Svelte, two popular JavaScript frameworks, we delve into their features, tooling, performance, learning curve, developer satisfaction, job market, and more.
 
-Today, we will compare two popular JavaScript frameworks: React and Svelte. We will discuss various factors such as popularity, tooling, job market, and more to help you make an informed decision.
+Read on to discover which framework best suits your needs, whether you're building a large-scale, high-performance application or seeking a simpler, easy-to-learn option.
 
 ## React vs Svelte: Quick overview
 
@@ -40,6 +40,11 @@ It is known for its simplicity, ease of use, and excellent performance. Svelte h
 ### Detailed comparison of React and Svelte
 
 ### 1. Popularity
+
+![Graph showing data on most popular web frameworks from Stack Overflow Developer Survey 2022](./images/most-popular-tech.png)
+
+<p style="text-align: center">
+<em>List of most popular web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#web-frameworks-and-technologies">Stack Overflow Developer Survey 2022</a></em></p>
 
 React is undoubtedly one of the most popular JavaScript libraries, with a large user base and widespread adoption. According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies), React is the most popular frontend JavaScript framework with 42.62% votes.
 
@@ -75,11 +80,21 @@ On the other hand, Svelte is known for its simplicity and ease of use. It uses a
 
 ### 6. Developer satisfaction
 
+![Graph showing retention ratio of React, Svelte and other popular JavaScript frameworks from State of JavaScript Survey 2022](./images/retention-ratio.png)
+
+<p style="text-align: center">
+<em>Retention ratio of popular web frameworks. Source: <a href="https://2022.stateofjs.com/en-US/libraries/#tier_list">State of JavaScript Survey 2022</a></em></p>
+
 According to the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/#tier_list), both React and Svelte have high developer satisfaction ratings with Svelte taking an edge over React. React has an 83% retention ratio while Svelte has an impressive 90% retention ratio.
 
 This indicates that developers who have used both frameworks are generally satisfied with their experience and would consider using them again in future projects.
 
 ### 7. Job market
+
+![Graph showing top paying web frameworks Stack Overflow Developer Survey 2022](./images/top-paying-tech.png)
+
+<p style="text-align: center">
+<em>List of top paying web frameworks. Source: <a href="https://2022.stateofjs.com/en-US/libraries/#tier_list">Stack Overflow Developer Survey 2022</a></em></p>
 
 React is currently in high demand in the job market, with numerous job listings on various job platforms. According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks), React developers earn an average of $69,480 per year.
 
@@ -87,9 +102,17 @@ Svelte, being a relatively newer framework, does not have the same level of dema
 
 ### 8. Interest over time
 
-React is one of the oldest and most popular frontend JavaScript frameworks.
+![Graph showing Google Trends comparison of React and Svelte from 2018-2023](./images/google-trends.png)
 
-Google Trends data from the past five years shows that React has consistently maintained a higher level of interest compared to Svelte. However, Svelte has seen a significant increase in interest in recent years, indicating that it is gaining traction within the developer community.
+<p style="text-align: center"><em>Google Trends comparison of React and Svelte from 2018-2023</em></p>
+
+React is one of the oldest and most popular frontend JavaScript frameworks with an established ecosystem. Therefore, it has derived much higher interest in the search engine.
+
+![Graph showing Google Trends data of Svelte from the last 5 years](./images/google-trends-svelte.png)
+
+<p style="text-align: center"><em>Google Trends data of Svelte from 2018-2023</em></p>
+
+Svelte, being a newer framework has a long way to go to match the same interest level as React. However, it has seen a significant increase in interest in recent years, indicating that it is gaining traction within the developer community.
 
 ### 9. Mobile App Development
 
@@ -99,8 +122,12 @@ Svelte, on the other hand, does not have a native solution for mobile app develo
 
 ## React vs Svelte: Which one is better for your use case?
 
-Both React and Svelte are powerful and efficient frameworks that offer a range of features and benefits. If you are building a large-scale application and require a mature, well-established ecosystem with better tooling, React may be the best choice for you. On the other hand, if you value simplicity, ease of use, and excellent performance, Svelte might be the better option.
+Both React and Svelte have their vocal proponents. Devs who prefer React often cite these [reasons](https://epicreact.dev/why-i-love-react/) for their preference- explicit state updates, JSX over templates, hooks etc.
 
-Ultimately, the choice between React and Svelte depends on your project requirements, familiarity with the frameworks, and personal preferences. Consider the factors discussed in this article to make an informed decision on which framework to use for your next project.
+On the other hand, devs who prefer Svelte cite these [reasons](https://blog.webjeda.com/why-svelte/) for their preference- HTML like syntax, scoped style, less code, lower learning curve etc.
+
+In general, if you are building a large-scale application and require a mature, well-established ecosystem with better tooling, React may be your best choice. On the other hand, if you need a simple framework with lower learning curve, high performance, and better developer satisfaction, then Svelte may be the best choice for you.
+
+Regardless of which framework you choose, you can expect an abundance of tools and libraries at your disposal to help you build complex applications efficiently.
 
 _Happy Coding!_
