@@ -31,9 +31,13 @@ Before diving into the specifics, let's briefly introduce the two easiest JavaSc
 
 Created by Evan You in 2014, Vue.js is a progressive framework that has gained immense popularity due to its gentle learning curve, flexibility, and extensive documentation. It's known for its approachable syntax and modular architecture.
 
+Here are two great resources for you to start learning Vue- [Vue JS Crash Course](https://youtu.be/qZXt1Aom3Cs) by Brad Traversy and courses by [Vue Mastery](https://www.vuemastery.com/courses/).
+
 ### Svelte
 
 Developed by Rich Harris in 2016, Svelte is a relatively newer framework that compiles your code into small, efficient JavaScript modules during build time, resulting in minimal runtime overhead. Its clean syntax and minimal boilerplate make it an attractive option for developers looking for simplicity and performance.
+
+Here are two great courses for you to start learning Svelte- [Learn Svelte – Full Course for Beginners](https://youtu.be/UGBJHYpHPvA) and [Svelte.js - The Complete Guide](https://www.udemy.com/course/sveltejs-the-complete-guide/).
 
 ## Why Vue and Svelte are the Easiest JavaScript Frameworks?
 
