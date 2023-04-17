@@ -210,11 +210,11 @@ To provide a tangible comparison of the two easiest JavaScript frameworks, we ha
 
 ### Vue
 
-<iframe src="https://replit.com/@AshutoshMishr85/LustrousSquareType?embed=true" width="600" height="400" />
+<iframe src="https://replit.com/@ashutosh-kombai/LustrousSquareType?embed=true" width="600" height="400" />
 
 ### Svelte
 
-<iframe src="https://replit.com/@AshutoshMishr85/HelpfulBrilliantBuckets?embed=true" width="600" height="400" />
+<iframe src="https://replit.com/@ashutosh-kombai/HelpfulBrilliantBuckets?embed=true" width="600" height="400" />
 
 ## Code Review
 
