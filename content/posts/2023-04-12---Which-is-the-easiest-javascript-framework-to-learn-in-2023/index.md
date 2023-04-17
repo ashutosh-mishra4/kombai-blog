@@ -260,7 +260,7 @@ The script section is also written in standard JavaScript and contains the compo
 
 In the end, both Vue and Svelte are [excellent](https://javascript.plainenglish.io/i-created-the-exact-same-app-in-vue-and-svelte-here-are-the-differences-c649f8d4ce0a) choices for new developers looking to learn a JavaScript framework. Their gentle learning curves, simple syntax, and intuitive data binding make them more accessible compared to other popular frameworks like React and Angular.
 
-The choice between both of them may also come down to personal preference or project requirements.
+The choice between both of them may also come down to personal preference.
 
 For developers who prefer a more HTML-like syntax with custom directives, Vue might be the better choice. On the other hand, if a developer is looking for a framework that stays closer to pure JavaScript with minimal overhead, Svelte could be a more suitable option.
 
