@@ -15,9 +15,9 @@ description: ""
 
 **TLDR**: _This article explores the two easiest JavaScript frameworks for beginners: Vue and Svelte. Both frameworks offer gentle learning curves, simple syntax, and intuitive data binding, making them more approachable than React and Angular. Vue is an excellent choice for those who appreciate HTML-like syntax with custom directives, while Svelte is ideal for developers seeking a framework that remains close to pure JavaScript. With real-world examples and detailed code reviews, this article helps new developers navigate the world of JavaScript frameworks more confidently._
 
-As a newbie developer or someone who is learning JavaScript from the past few months, you might be wondering which is the easiest JavaScript framework for you to pick up.
+As a newbie developer or someone who is learning JavaScript for the past few months, you might be wondering which is the easiest JavaScript framework for you to pick up.
 
-It's natural to ask that question because the JavaScript ecosystem is vast and ever-evolving, with countless numbers of frameworks and libraries available at your disposal. The decision can be daunting, especially for those just starting out in their web development journey.
+It's natural to ask that question because the JavaScript ecosystem is vast and ever-evolving, with countless numbers of frameworks and libraries available at your disposal. The decision can be daunting, especially for those just starting their web development journey.
 
 After extensive research and comparison, we have narrowed down the list to two of the most beginner-friendly JavaScript frameworks: Vue and Svelte.
 
@@ -46,7 +46,6 @@ Both Vue and Svelte are known for their gentle learning curves, making them more
 React has a steeper learning curve due to its use of JSX and the need to learn concepts like state management, hooks, and the component lifecycle.
 
 Angular, as a full-fledged framework, requires developers to learn TypeScript, Angular-specific syntax, and a variety of complex concepts like dependency injection, decorators, and modules.
-
 
 ### 2. Simple Syntax and Code Organization
 
@@ -92,11 +91,7 @@ function App() {
   // JavaScript Code
   const [value, setValue] = useState("");
 
-  return (
-    <div className="App">
-      {/* HTML-like Markup (JSX) */}
-    </div>
-  );
+  return <div className="App">{/* HTML-like Markup (JSX) */}</div>;
 }
 
 export default App;
@@ -147,7 +142,13 @@ import { useState } from "react";
 function App() {
   const [newTask, setNewTask] = useState("");
 
-  return <input type="text" value={newTask} onChange={(e) => setNewTask(e.target.value)} />;
+  return (
+    <input
+      type="text"
+      value={newTask}
+      onChange={(e) => setNewTask(e.target.value)}
+    />
+  );
 }
 ```
 
@@ -167,7 +168,6 @@ Svelte, on the other hand, uses language constructs like `{#each}`, `{#if}`, and
 
 React is unique in its approach, as it uses JSX—an XML-like syntax embedded in JavaScript—to handle tasks such as looping and conditional rendering. This requires developers to learn the JSX syntax and understand how it integrates with JavaScript. For someone who has never used a framework before, this might be less intuitive compared to Vue's custom directives or Svelte's language constructs.
 
-
 #### Vue example:
 
 ```html
@@ -181,7 +181,7 @@ React is unique in its approach, as it uses JSX—an XML-like syntax embedded in
 ```html
 <ul>
   {#each tasks as task, index (task.id)}
-    <li>{task}</li>
+  <li>{task}</li>
   {/each}
 </ul>
 ```
@@ -204,7 +204,6 @@ React is unique in its approach, as it uses JSX—an XML-like syntax embedded in
 </ul>
 ```
 
-
 ## Building a To-Do List App with Vue and Svelte
 
 To provide a tangible comparison of the two easiest JavaScript frameworks, we have created a simple "To-Do List" app using both Vue and Svelte. Code is embedded below, feel free to check it out and play with it.
@@ -225,7 +224,7 @@ In this section, we will review the code of both To-Do List apps, and discuss wh
 
 The Vue.js code is divided into three sections within a single file: `template`, `script`, and `style`. This structure makes it easy for developers to understand how the components are organized.
 
-The template section contains HTML-like markup that uses Vue's custom directives such as `v-model`, `v-for`, and `v-if`. These directives are easy to comprehend for someone new to frameworks, as they resemble standard HTML attributes and provide clear, declarative instructions for *data binding*, *loops*, and *conditionals*.
+The template section contains HTML-like markup that uses Vue's custom directives such as `v-model`, `v-for`, and `v-if`. These directives are easy to comprehend for someone new to frameworks, as they resemble standard HTML attributes and provide clear, declarative instructions for _data binding_, _loops_, and _conditionals_.
 
 For example:
 
@@ -233,7 +232,7 @@ For example:
 <input type="text" v-model="newTask" @keyup.enter="addTask" />
 ```
 
-Here, `v-model` is used for two-way data binding between the input field and the *newTask* variable. The `@keyup.enter` listens for the "Enter" key press and triggers the *addTask* method.
+Here, `v-model` is used for two-way data binding between the input field and the _newTask_ variable. The `@keyup.enter` listens for the "Enter" key press and triggers the _addTask_ method.
 
 The script section is where the component's data and methods are defined. It is written in standard JavaScript and follows a simple object structure. The methods and data are easy to understand, and the Vue instance handles the reactivity and DOM updates automatically.
 
@@ -246,10 +245,14 @@ In the HTML markup, you'll find constructs like `{#each}` and `{#if}` for loops 
 For instance:
 
 ```html
-<input type="text" bind:value="{newTask}" on:keyup="{({ key }) => key === 'Enter' && addTask()}" />
+<input
+  type="text"
+  bind:value="{newTask}"
+  on:keyup="{({ key }) => key === 'Enter' && addTask()}"
+/>
 ```
 
-In this example, `bind:value` is used for two-way data binding between the input field and the *newTask* variable. The `on:keyup` listens for the "Enter" key press and triggers the *addTask* method.
+In this example, `bind:value` is used for two-way data binding between the input field and the _newTask_ variable. The `on:keyup` listens for the "Enter" key press and triggers the _addTask_ method.
 
 The script section is also written in standard JavaScript and contains the component's data and methods. Svelte components are reactive by default, which means that the framework automatically handles DOM updates when the data changes.
 
@@ -261,5 +264,4 @@ The choice between both of them may also come down to personal preference or pro
 
 For developers who prefer a more HTML-like syntax with custom directives, Vue might be the better choice. On the other hand, if a developer is looking for a framework that stays closer to pure JavaScript with minimal overhead, Svelte could be a more suitable option.
 
-*Happy Coding!*
-
+_Happy Coding!_
