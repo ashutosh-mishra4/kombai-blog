@@ -14,7 +14,7 @@ tags:
 description: ""
 ---
 
-Comments are of great help when used in properly in moderation. It allows developers to communicate their intentions to other team members, making it easier for them to understand and contribute to the code.
+Comments are of great help when used properly in moderation. It allows developers to communicate their intentions to other team members, making it easier for them to understand and contribute to the code.
 
 In this article, we will explore how to comment in HTML, JavaScript, and CSS and best practices for commenting.
 
