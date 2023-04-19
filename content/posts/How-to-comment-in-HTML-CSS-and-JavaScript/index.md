@@ -13,8 +13,6 @@ tags:
 description: "Learn to use single and multiline comments in HTML, CSS, and JavaScript and the best practices to write clear comments."
 ---
 
-**TLDR:** _This article teaches how to comment in HTML, CSS, and JavaScript using single-line and multiline comments, along with best practices for clear and useful commenting._
-
 Comments are of great help when used properly in moderation. It allows developers to communicate their intentions to other team members, making it easier for them to understand and contribute to the code.
 
 In this article, we will explore how to comment in HTML, JavaScript, and CSS and best practices for commenting.
