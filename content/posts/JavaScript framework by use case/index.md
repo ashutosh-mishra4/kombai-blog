@@ -81,7 +81,7 @@ Angular integrates seamlessly with other TypeScript tools and libraries, making 
 
 ## 9. Lightweight Alternative: Hyperapp
 
-Hyperapp is a lightweight JavaScript framework that emphasizes simplicity and performance. With a small footprint and a functional approach to state management, Hyperapp is an excellent choice for small projects or situations where performance is critical, and bundle size needs to be minimized.
+Hyperapp is a 1KB, lightweight JavaScript framework that emphasizes simplicity and performance. With a small footprint and a functional approach to state management, Hyperapp is an excellent choice for small projects or situations where performance is critical, and bundle size needs to be minimized.
 
 Hyperapp has a very small footprint and minimal dependencies, which makes it a great choice for projects where bundle size and performance are critical.
 
