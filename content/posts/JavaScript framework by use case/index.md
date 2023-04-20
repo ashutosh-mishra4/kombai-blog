@@ -3,7 +3,7 @@ title: "Which is the best JavaScript framework for use case?"
 date: "2023-04-18"
 template: "post"
 draft: false
-slug: "/posts/best-javascript-framework-for-use-case"
+slug: "/posts/best-javascript-framework-for-your-use-case"
 category: "javascript"
 tags:
   - "JavaScript"
@@ -103,7 +103,7 @@ TypeScript provides a range of tools and features, including type checking and s
 
 Angular integrates seamlessly with other TypeScript tools and libraries, making it easier for developers to build modern and efficient web applications with a range of tools and packages.
 
-## 9. Lightweight Alternative: Hyperapp
+## 9. Bundle Size: Hyperapp
 
 Hyperapp is a 1KB, lightweight JavaScript framework that emphasizes simplicity and performance. With a small footprint and a functional approach to state management, Hyperapp is an excellent choice for small projects or situations where performance is critical, and bundle size needs to be minimized.
 
