@@ -13,7 +13,7 @@ tags:
 description: ""
 ---
 
-**TLDR**: _Many experience devs agree that Vue and Svelte are the two easiest JavaScript frameworks. Both frameworks offer gentle learning curves, simple syntax, and intuitive data binding, making them more approachable than React and Angular. Vue is an excellent choice for those who appreciate HTML-like syntax with custom directives, while Svelte is ideal for developers seeking a framework that remains close to pure JavaScript. With real-world examples and detailed code reviews, this article helps new developers navigate the world of JavaScript frameworks more confidently._
+**TLDR**: _Most experience frontend devs agree that Vue and Svelte are the two easiest JavaScript frameworks. Both frameworks offer gentle learning curves, simple syntax, and intuitive data binding, making them more approachable than React and Angular. Vue is an excellent choice for those who appreciate HTML-like syntax with custom directives, while Svelte is ideal for developers seeking a framework that remains close to pure JavaScript. With real-world examples and detailed code reviews, this article helps new developers navigate the world of JavaScript frameworks more confidently._
 
 Vue and Svelte are two such frameworks that have gained popularity for their ease of use and accessibility to beginners. Vue has a minimalistic syntax and an [easy-to-understand](https://about.gitlab.com/blog/2016/10/20/why-we-chose-vue/) templating system, while Svelte compiles applications at build time, reducing the amount of code needed to build web applications.
 
