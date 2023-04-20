@@ -45,7 +45,7 @@ Vue is highly modular and can be easily integrated into existing projects. It pr
 
 ![Graph showing data of Stack Overflow Developer Survey 2022 on React vs Vue](./images/vue-react-popular.png)
 
-<p style="text-align: center; font">
+<p style="text-align: center;">
 <em>List of most popular web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#web-frameworks-and-technologies">Stack Overflow Developer Survey 2022</a></em></p>
 
 React and Vue, both are popular frameworks used by developers worldwide. According to the [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#web-frameworks-and-technologies), React is the most popular frontend JavaScript framework and Vue has secured 4th position in popularity among the best frontend JavaScript frameworks.
@@ -92,7 +92,7 @@ Vue uses templates, which are similar to HTML and can be easier for developers t
 
 ![Graph showing retention ratio of React vs Vue in the State of JavaScript Survey 2022](./images/vue-react-retention-ratio.png)
 
-<p style="text-align: center; font">
+<p style="text-align: center;">
 <em>List of popular JavaScript libraries and frameworks with highest retention ratio. Source: <a href="https://2022.stateofjs.com/en-US/libraries/#tier_list">State of JS Survey 2022</a></em></p>
 
 Both React and Vue are highly popular among developers, and developers tend to be satisfied with their choice of framework. In the [State of JavaScript Survey 2022](https://2022.stateofjs.com/en-US/libraries/#tier_list), both React and Vue have received 83% and 77% retention ratios, respectively.
@@ -103,7 +103,7 @@ In the 2022 Stack Overflow Developer Survey, React received 68.19% score and Vue
 
 ![Graph showing average pay of React and Vue developers from the Stack Overflow Developer Survey 2022](./images/react-vue-average-pay.png)
 
-<p style="text-align: center; font">
+<p style="text-align: center;">
 <em>List of top paying web frameworks. Source: <a href="https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks">State of JS Survey 2022</a></em></p>
 
 Both React and Vue are in high demand in the job market. [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#top-paying-technologies-web-frameworks) reported that React developers are paid $69,480 on average and Vue developers are getting paid $60,148 on average.
@@ -118,7 +118,7 @@ Both React and Vue have seen significant growth in interest over the years. Both
 
 ![Graph showing Google Trends data of last 5 years on React vs Vue](./images/react-vue-google-trends.png)
 
-<p style="text-align: center; font">
+<p style="text-align: center;">
 <em>Comparison of React and Vue on Google Trends based on data from 2018-2023</em></p>
 
 Last 5 years of data on Google Trends data shows a close battle between React and Vue to acquire users' interests. However, in the last 1 year, React has gained an upper edge and has appeared more in searches than Vue.
