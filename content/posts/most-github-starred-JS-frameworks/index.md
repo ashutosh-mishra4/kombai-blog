@@ -83,6 +83,8 @@ Hyperapp, a minimalistic JavaScript framework, ranks tenth in our ranking. Hyper
 
 Its tiny footprint and straightforward syntax make it a popular choice for small-scale projects and developers who prefer a minimalist approach to web development.
 
+Here's the official [tutorial](https://github.com/jorgebucaran/hyperapp/blob/main/docs/tutorial.md) and [reference](https://github.com/jorgebucaran/hyperapp/blob/main/docs/reference.md) for you to start leaning Hyperapp
+
 ## Conclusion
 
 The popularity of React, Vue, and Angular showcases their strength as versatile and powerful tools for building modern web applications. However, the rise of newer frameworks like Svelte, Solid, and Alpine.js reflects a growing interest in simpler, more lightweight alternatives.
