@@ -11,6 +11,8 @@ tags:
 description: "Discover what is Tailwind and how it can help you create beautiful and responsive designs in no time"
 ---
 
+**TLDR**: _In this article, we explored Tailwind CSS, a popular CSS framework known for its utility-first approach, customizable design system, and accessibility-first approach. We discussed its key features, including responsive design, powerful layout tools, and how to use Tailwind's utility classes. We also covered how to customize Tailwind CSS and create custom utility classes. If you're a web developer or designer looking to build responsive and user-friendly websites and applications quickly and efficiently, Tailwind CSS is definitely worth checking out._
+
 Tailwind CSS is a CSS framework that has become increasingly popular among web developers and designers. It provides a set of utility classes that make it easier to create custom designs, and offers a comprehensive set of tools and features that help developers and designers create responsive, accessible, and user-friendly websites and applications quickly and efficiently.
 
 ![Graph showing all time weekly downloads of Tailwind CSS on NPM](./images/tailwind.png)
