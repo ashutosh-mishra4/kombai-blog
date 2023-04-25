@@ -26,7 +26,7 @@ In this article, we will explore the key features of Tailwind CSS, including its
 
 [Tailwind CSS](https://tailwindcss.com/) is a popular CSS framework that provides a set of utility classes to make it easier to create custom designs. It was created by Adam Wathan, Steve Schoger, and David Hemphill, and was released in 2017. Since then, it has gained a lot of popularity due to its ease of use and flexibility.
 
-Tailwind CSS is built on a utility-first approach to CSS, which means that the framework provides a set of small, single-purpose classes that can be combined to create complex styles quickly and easily. This is in contrast to more traditional CSS frameworks that rely on predefined styles and templates.
+Tailwind CSS is built on a utility-first approach to CSS, which means that the framework provides a set of small, single-purpose classes that can be combined to create complex styles quickly and easily. This is in contrast to more [traditional CSS frameworks](https://blog.logrocket.com/comparing-bootstrap-vs-tailwind-css-vs-material-ui-mui/) that rely on predefined styles and templates.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Properly playing with ChatGPT for the first time to get some help with a new podcast name — really mind-blowing stuff and even more crazy to me that it&#39;s using Tailwind CSS for the UI.<br><br>Constantly humbled by where our stupid little framework has gone in the last 5 years 😳 <a href="https://t.co/etar9xOXSC">pic.twitter.com/etar9xOXSC</a></p>&mdash; Adam Wathan (@adamwathan) <a href="https://twitter.com/adamwathan/status/1623506723280502784?ref_src=twsrc%5Etfw">February 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
