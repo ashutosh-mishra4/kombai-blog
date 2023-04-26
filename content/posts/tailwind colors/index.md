@@ -9,7 +9,7 @@ tags:
   - "Tailwind"
   - "Guides"
   - "React"
-description: "Discover what is Tailwind and how it can help you create beautiful and responsive designs in no time"
+description: "Explore Tailwind CSS colors, default palettes, customization, etc from our guide to create stunning designs."
 ---
 
 Tailwind CSS is an innovative, utility-first CSS framework that simplifies and accelerates frontend development by offering a wide array of tools and customization options. Among its many powerful features, Tailwind CSS excels in providing an extensive color management system, allowing developers to effortlessly create and implement color schemes in their projects.
