@@ -1,5 +1,5 @@
 ---
-title: "11 Top alternatives to Tailwind CSS and When to use them"
+title: "11 Top Tailwind CSS alternatives and When to use them"
 date: "2023-05-8"
 template: "post"
 draft: false
