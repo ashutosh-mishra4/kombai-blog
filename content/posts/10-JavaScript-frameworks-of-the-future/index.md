@@ -1,9 +1,9 @@
 ---
-title: "10 JavaScript frameworks of the future"
+title: "10 Promising JavaScript Frameworks that aren't React or Angular"
 date: "2023-04-18"
 template: "post"
 draft: false
-slug: "/posts/javascript-frameworks-of-the-future"
+slug: "/posts/promising-javascript-frameworks-beyond-react-angular"
 category: "javascript"
 tags:
   - "JavaScript"
@@ -11,7 +11,7 @@ tags:
 description: ""
 ---
 
-**TLDR:** _: This article explores ten innovative JavaScript frameworks that address gaps and problems in earlier frameworks, including Svelte, SolidJS, Blitz.js, Astro, Redwood.js, Alpine.js, Lit, Qwik, Stencil, and Hyperapp. These next-generation frameworks offer unique approaches to web application development, ranging from minimalist and performance-focused solutions to full-stack frameworks with robust features enabling developers to create more efficient, scalable, and accessible web applications and staying ahead of the curve_
+**TLDR:** _: This article explores ten innovative JavaScript frameworks that address gaps and problems in earlier frameworks, including Svelte, SolidJS, Blitz.js, Astro, Redwood.js, Alpine.js, Lit, Qwik, Stencil, and Hyperapp. These next-generation frameworks offer unique approaches to web application development, ranging from minimalist and performance-focused solutions to full-stack frameworks with robust features enabling developers to create more efficient, scalable, and accessible web applications and staying ahead of the curve._
 
 JavaScript frameworks have become an indispensable part of web development over the years, with numerous frameworks emerging and evolving to address developers' needs. From jQuery's early days to React, Angular, and Vue.js, the constant innovations in JavaScript frameworks have driven the web forward. However, as much as these earlier frameworks laid the groundwork for modern web development, they also introduced issues and left some gaps unfilled.
 
@@ -23,11 +23,21 @@ Let's dive into these next-generation JavaScript frameworks that are shaping the
 
 ## 1. Svelte: Streamlining Web Development
 
+![](./images/svelte.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://svelte.dev/">https://svelte.dev/</a></em></p>
+
 [Svelte](https://svelte.dev/) is a game-changing JavaScript framework that addresses boilerplate code issues and inefficient DOM updates common in previous frameworks. By compiling applications at build time, Svelte significantly reduces code size and optimizes performance.
 
 Its straightforward syntax makes it accessible to developers looking to build performant, scalable web applications that overcome previous frameworks' limitations.
 
 ## 2. SolidJS: Reactive Simplicity
+
+![](./images/solid.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://www.solidjs.com/">https://www.solidjs.com/</a></em></p>
 
 [SolidJS](https://www.solidjs.com/) is a lightweight and efficient framework that solves the complexity and performance issues often found in earlier frameworks. SolidJS allows developers to build web applications effortlessly with a reactive, component-based architecture.
 
@@ -35,17 +45,32 @@ It has a flexible and powerful templating engine that allows developers to defin
 
 ## 3. Blitz.js: Full-Stack Productivity
 
+![](./images/blitz.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://blitzjs.com/">https://blitzjs.com/</a></em></p>
+
 [Blitz.js](https://blitzjs.com/) is a full-stack framework built on top of Next.js, offering a comprehensive solution for developers previously struggling with fragmented tooling and a lack of features in older frameworks.
 
 Blitz.js emphasizes developer productivity by providing code generation, schema stitching, and database migrations, allowing developers to build complex web applications with ease. Its built-in authentication system also simplifies securing web applications and protecting user data.
 
 ## 4. Astro: Merging Static and Dynamic
 
+![](./images/astro.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://astro.build/">https://astro.build/</a></em></p>
+
 [Astro](https://astro.build/) is an innovative framework that solves the limitations of static site generation in dynamic web applications. It enables developers to build web applications with modern web frameworks and tools, while still leveraging the benefits of a static site.
 
 Astro allows developers to use popular front-end frameworks such as React, Vue, and Svelte, to build dynamic web applications that can be deployed as static sites. This approach offers many benefits, including faster load times, improved SEO, and simplified deployment.
 
 ## 5. Redwood.js: Simplifying Full-Stack Development
+
+![](./images/redwood.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://redwoodjs.com/">https://redwoodjs.com/</a></em></p>
 
 [Redwood.js](https://redwoodjs.com/) is a full-stack JavaScript framework that tackles the fragmentation and inconsistencies found in earlier development frameworks, offering a cohesive and straightforward solution for creating modern web applications. By combining the strengths of React, GraphQL, and various built-in tools, Redwood.js provides a seamless development experience that simplifies the construction of complex applications.
 
@@ -59,17 +84,32 @@ Alpine.js has this unique ability to integrate with existing HTML markup allowin
 
 ## 7. Lit: Performant Components
 
+![](./images/lit.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://lit.dev/">https://lit.dev/</a></em></p>
+
 [Lit](https://lit.dev/) is a lightweight and efficient JavaScript library that resolves the interoperability and performance constraints of earlier web component frameworks. Built on modern web standards like Custom Elements, Shadow DOM, and CSS properties, Lit simplifies web component development with its intuitive and user-friendly API.
 
 The library's small size and minimal dependencies make it an excellent choice for building lightweight, high-performance web applications. By focusing on performance and scalability, Lit sets the stage for developing large-scale web applications that surpass the limitations of earlier frameworks.
 
 ## 8. Qwik: Serverless Web Apps
 
+![](./images/qwik.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://qwik.builder.io/">https://qwik.builder.io/</a></em></p>
+
 [Qwik](https://qwik.builder.io/) is a cutting-edge, fast, and lightweight JavaScript framework designed specifically for building serverless web applications.
 
 Its streamlined and intuitive API simplifies serverless application development, addressing the complexity and learning curve associated with earlier frameworks. Qwik also provide features like server-side rendering, automatic code splitting, and offline support, facilitate the creation of high-performance and scalable web applications.
 
 ## 9. Stencil: Compatible Components
+
+![](./images/stencil.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://stenciljs.com/">https://stenciljs.com/</a></em></p>
 
 [Stencil](https://stenciljs.com/) is a flexible and efficient web components compiler that tackles the compatibility and performance challenges faced with earlier frameworks.
 
