@@ -31,7 +31,7 @@ In this section, we will highlight some of the best Tailwind CSS and Figma UI ki
 
 ### Flowbite
 
-[Flowbite](https://flowbite.com/) is a comprehensive UI kit that combines Tailwind CSS with Figma design components, providing a seamless workflow for designers and developers. It offers a vast library of over 300 responsive and customizable components, 20 pre-built page templates, and a collection of icons to help you create a professional-looking application.
+[Flowbite](https://flowbite.com/) is a comprehensive UI kit that combines Tailwind CSS with Figma design components, providing a seamless workflow for designers and developers. As of May 2023, it offers a vast library of over 600+ UI components, sections, and pages that are designed in Figma and are built with utility classes of Tailwind.
 
 Flowbite is an excellent choice for creating dashboards, admin panels, or any other type of web application, as it is designed with a mobile-first approach and follows best design practices. Its extensive documentation and community support make it an ideal option for both beginners and experienced developers.
 
@@ -41,25 +41,25 @@ Flowbite is an excellent choice for creating dashboards, admin panels, or any ot
 
 ### Tailwind Flex
 
-[Tailwind Flex](https://shuffle.dev/marketplace/flex) is a versatile UI kit that combines the power of Tailwind CSS with Figma components. It offers over 150 pre-designed components, such as typography, buttons, forms, and various layout elements. This UI kit is perfect for building responsive and modern web applications with a focus on performance and ease of use.
+[Tailwind Flex](https://shuffle.dev/marketplace/flex) is a versatile UI kit that combines the power of Tailwind CSS with Figma components. As of May 2023, it offers over 700 pre-designed components, such as typography, buttons, forms, and various layout elements. This UI kit is perfect for building responsive and modern web applications with a focus on performance and ease of use.
 
 Tailwind Flex also comes with a set of color schemes and font pairings that can be easily customized to match your project's branding. The well-organized file structure and comprehensive documentation make it easy to find and modify components as needed.
 
 ### TailAdmin
 
-[TailAdmin](https://www.figma.com/community/file/1214477970819985778) is a premium Figma UI kit specifically designed for building admin panels and dashboards using Tailwind CSS. It comes with over 80 pre-built components, including navigation bars, charts, tables, and forms, all of which are customizable and responsive. TailAdmin also provides a variety of page layouts, such as login and registration pages, to help you quickly set up the user experience for your web application.
+[TailAdmin](https://www.figma.com/community/file/1214477970819985778) is a premium Figma UI kit specifically designed for building admin panels and dashboards using Tailwind CSS. As of May 2023, it comes with over 200 pre-built components, including cards, charts, tables, and forms, all of which are customizable and responsive. TailAdmin also provides a variety of page layouts, such as login and registration pages, to help you quickly set up the user experience for your web application.
 
 ### Preline UI Figma
 
-[Preline UI Figma](https://www.figma.com/community/file/1179068859697769656) is a free, open-source UI kit that combines Tailwind CSS with Figma components, offering a clean and modern design language for your projects. It includes various UI elements like buttons, cards, forms, and more, all of which are responsive and customizable. Preline UI Figma is an excellent choice for developers and designers looking to create elegant and user-friendly web applications without spending hours on design work.
+[Preline UI Figma](https://www.figma.com/community/file/1179068859697769656) is the world's largest free Figma design system. Combined with Tailwind CSS, it offers a clean and modern design language for your projects. It includes various UI elements like buttons, cards, forms, and more, all of which are responsive and customizable. Preline UI Figma is an excellent choice for developers and designers looking to create elegant and user-friendly web applications without spending hours on design work.
 
 ### Kyoto UI
 
-[Kyoto UI](https://www.figma.com/community/file/1231537921888637514) is a beautifully designed Figma UI kit that leverages the power of Tailwind CSS to create visually appealing and responsive web applications. It features a comprehensive set of UI components, including buttons, cards, forms, and navigation elements, all designed with a unique and modern aesthetic. Kyoto UI is perfect for designers and developers looking to create stunning web applications that stand out from the competition, while still maintaining ease of use and functionality.
+[Kyoto UI](https://www.figma.com/community/file/1231537921888637514) is a beautifully designed Figma UI kit that leverages the power of Tailwind CSS to create visually appealing and responsive web applications. It features a comprehensive set of 500+ UI components, including buttons, cards, forms, and navigation elements, all designed with a unique and modern aesthetic. Kyoto UI is perfect for designers and developers looking to create stunning web applications that stand out from the competition, while still maintaining ease of use and functionality.
 
 ### Landify
 
-[Landify](https://www.figma.com/community/file/894552273937682724) is a versatile Figma UI kit that combines the power of Tailwind CSS with a focus on creating beautiful and responsive landing pages. With over 50 pre-designed sections, including hero sections, feature lists, testimonials, and pricing tables, Landify allows you to quickly build and customize landing pages for your web applications. The kit also includes a collection of icons and illustrations, providing you with a complete set of design assets for your projects.
+[Landify](https://www.figma.com/community/file/894552273937682724) is a versatile Figma UI kit that combines the power of Tailwind CSS with a focus on creating beautiful and responsive landing pages. With over 50 pre-designed components, including hero sections, feature lists, testimonials, and pricing tables, Landify allows you to quickly build and customize landing pages for your web applications. The kit also includes a collection of icons and illustrations, providing you with a complete set of design assets for your projects.
 
 ### Conclusion
 
