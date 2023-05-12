@@ -1,5 +1,5 @@
 ---
-title: "Tailwind CSS vs bootstrap: What's the difference and What you should use"
+title: "Tailwind CSS vs bootstrap: What's the difference"
 date: "2023-05-9"
 template: "post"
 draft: false
