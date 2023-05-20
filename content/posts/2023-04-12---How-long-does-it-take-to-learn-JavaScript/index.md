@@ -37,25 +37,29 @@ The quality and type of learning resources you use can also influence how long i
 
 ## How long does it take to learn JavaScript?
 
-On average, you'll need to spend 3-4 hours daily for at least 6-9 months learning and practicing JavaScript. If you can only dedicate an 1-2 hours a day, adjust your expectations to 12-18 months. Remember, everyone learns at a different pace.
+Everyone learns at a different speed. But based on our own experience, that of our friends, and resources available on the internet, we suggest the below rules of thumb for experienced developers and newbies:
 
-In your journey to learn JavaScript, you will progress through different stages of expertise. Understanding these stages can help you gauge your progress and set realistic expectations-
+### Experienced Developers
 
-### 1. Beginner:
+If you are a programmer experienced in another stack, you might be able to get to coding in vanilla Javascript in 10-20 hours. Consider adding ~2X of that time to pick up the basics of some modern JS frameworks, such as React or Vue. This way, you can start building basic, but functional frontends within a week or two using a JS framework.
 
-During the beginner stage, you will focus on understanding basic JavaScript syntax, data types, variables, and basic control structures such as loops and conditional statements. It will take you around 1-2 months to learn these concepts.
+Using a component library like [Material UI](https://mui.com/material-ui/getting-started/overview/), [Chakra UI](https://chakra-ui.com/), etc., can reduce your learning curve even further, as with them, you won't have to write most components from scratch anymore.
 
-### 2. Intermediate:
+If you are in this group, consider learning from examples once you have got the basics of Javascript as a language. You can find many examples of working fully frontend code using: [Material UI](https://github.com/MiladSadeghi/molla-ecommerce-react) and [Chakra](https://github.com/codebender828/miro-landing-chakra/).
 
-At the intermediate stage, you will delve deeper into JavaScript concepts, such as arrays, objects, and functions. You'll also explore the Document Object Model (DOM) and how to use JavaScript to manipulate web page content. This stage can take you 3-6 months on average depending on your background and practice hours.
+Reviewing these codebases, and trying to find how they have implemented the particular things you need to implement (e.g. a [menu](https://github.com/MiladSadeghi/molla-ecommerce-react/blob/master/src/components/Navbar/Navbar.js) or a [login](https://github.com/MiladSadeghi/molla-ecommerce-react/blob/master/src/components/Navbar/SignIn.js) page), can be a great way to ramp up quickly.
 
-### 3. Advanced:
+### Newbie Developers
 
-In this stage, you will learn complex topics like asynchronous programming, closures, and prototypes. You'll also learn a JavaScript framework- React, Angular, Vue, etc., whichever you prefer. It will take you another 4-6 months minimum to get hold of advanced JavaScript concepts and knowledge of the framework.
+On the other end of the spectrum - if you have little to no experience in programming and want to pick up Javascript well enough to qualify for the frontend roles - you'd need anything in the range of 400-800 hours of effort. That's 3-4 hours daily for 5-9 months.
+
+This should include learning from resources such as courses/ books/ online videos, but perhaps even more importantly - lots of practicing and building stuff. Choosing a well-structured course, either online or offline, can be beneficial because then, you won't have to worry about structuring your learning path, i.e., what topic you should pick up after what.
+
+If you are choosing to go with a self-driven learning path (e.g. lots of disparate videos on youtube), try to follow the course outlines of one other structured courses (e.g. [this](https://www.udemy.com/course/the-complete-javascript-course/) or [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)). Either way, remember to spend at least half of your time coding and building side projects.
 
 ## Tips to learn JavaScript efficiently
 
-Overall, it will take you at least 6-12 months of learning and practice to become a proficient, employable JavaScript developer. Follow these tips for smoother learning experience:
+Overall, it will take you at least 6-12 months of learning and practice to become a proficient, employable JavaScript developer if you have never coded before. Follow these tips for smoother learning experience:
 
 - **Break down the learning process**: Divide the JavaScript learning process into smaller, manageable goals. This will make the learning process less overwhelming and help you track your progress more efficiently.
 
