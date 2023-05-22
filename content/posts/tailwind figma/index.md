@@ -1,3 +1,4 @@
+---
 title: "Tailwind + Figma - 7 Top UI kits to quickly build your prototype"
 date: "2023-05-9"
 template: "post"
@@ -5,12 +6,12 @@ draft: false
 slug: "/posts/top-tailwind-figma-ui-kits"
 category: "tailwind"
 tags:
-
-- "Tailwind"
-- "Figma"
-- "UI Kits"
-- "CSS Frameworks"
-  description: ""
+  - "Tailwind"
+  - "Figma"
+  - "UI Kits"
+  - "CSS Frameworks"
+description: "Discover top 7 Tailwind Figma UI kits to enhance your design and development process efficiently."
+---
 
 Designing beautiful and responsive web applications can be a challenging task, requiring a combination of creativity and technical skill. Fortunately, developers can leverage powerful tools like Figma and Tailwind CSS to streamline their workflow and create stunning interfaces quickly and efficiently.
 
