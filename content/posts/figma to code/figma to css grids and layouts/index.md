@@ -63,8 +63,6 @@ CSS Grid offers several advantages over other layout systems, such as floats and
 
 **Grid-based Structure**: CSS Grid provides a comprehensive grid-based structure that allows for the precise placement of elements. It enables designers to create complex, multi-dimensional layouts without resorting to complicated workarounds.
 
-**Responsive Design**: CSS Grid excels in creating responsive layouts. By utilizing media queries and adjusting grid properties, designers can achieve fluid and adaptive designs that seamlessly adapt to different screen sizes and orientations.
-
 **Simplified Code Structure**: CSS Grid eliminates the need for excessive nesting and positioning hacks. The grid-based approach provides a clean and intuitive structure, making the code more maintainable, readable, and scalable.
 
 **Fine-grained Control**: CSS Grid offers precise control over both rows and columns. Designers can define the exact dimensions and positioning of grid items, enabling pixel-perfect layouts and alignment.
