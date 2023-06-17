@@ -1,3 +1,21 @@
+---
+title: "Converting Figma Layouts to CSS Grid Code"
+date: "2023-06-17"
+template: "post"
+draft: false
+slug: "figma/converting-figma-layouts-to-css-grid"
+category: "figma"
+tags:
+  - "Figma"
+  - "CSS"
+  - "HTML"
+description: "Learn about importance of Figma and CSS Grid. Step by step process on how to approach conversion of a Figma design to CSS Grid code."
+---
+
+```toc
+# This code block gets replaced with the TOC
+```
+
 Designers are wild in their imagination, often times they create beautiful designs and layouts that are hard to imitate on the web. In the olden times, it used to be an issue but now with the modern layout systems like CSS Grid, we can confidently imitate and bring complex Figma layouts to the web.
 
 In this article, we are going to learn how CSS Grid helps in effective conversion of complex Figma designs to live website. We will cover the importance of Figma in the world of UI/UX design, introduction and importance of CSS Grid and what is the right approach when it comes to conversion of Figma to CSS Grid code.
