@@ -8,7 +8,7 @@ category: "figma"
 tags:
   - "Figma"
   - "HTML"
-description: "Discover how to convert HTML/CSS into a Figma design using html.to.design and Builder.io in our essential guide for designers."
+description: "Discover how to convert HTML/CSS into a Figma design using html.to.design in our essential guide for designers."
 ---
 
 ```toc
