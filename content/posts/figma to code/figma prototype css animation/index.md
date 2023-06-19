@@ -3,7 +3,7 @@ title: "Creating CSS Animations from Figma Prototypes"
 date: "2023-06-19"
 template: "post"
 draft: false
-slug: "figma/converting-figma-prototype-to-css-animation"
+slug: "posts/converting-figma-prototype-to-css-animation"
 category: "figma"
 tags:
   - "Figma"

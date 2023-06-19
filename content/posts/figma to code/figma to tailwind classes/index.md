@@ -3,7 +3,7 @@ title: "Converting Figma designs to Tailwind CSS utility classes"
 template: "post"
 date: "2023-06-6"
 draft: false
-slug: "figma/converting-figma-designs-to-tailwind-css-utility-classes"
+slug: "posts/converting-figma-designs-to-tailwind-css-utility-classes"
 category: "figma"
 tags:
   - "Figma"

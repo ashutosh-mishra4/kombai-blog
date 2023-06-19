@@ -3,7 +3,7 @@ title: "How to convert HTML/CSS to Figma design? An Essential Guide For Designer
 date: "2023-06-7"
 template: "post"
 draft: false
-slug: "figma/converting-html-to-figma-design"
+slug: "posts/converting-html-to-figma-design"
 category: "figma"
 tags:
   - "Figma"

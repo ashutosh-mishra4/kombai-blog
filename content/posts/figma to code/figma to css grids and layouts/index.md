@@ -3,7 +3,7 @@ title: "Converting Figma Layouts to CSS Grid Code"
 date: "2023-06-17"
 template: "post"
 draft: false
-slug: "figma/converting-figma-layouts-to-css-grid"
+slug: "posts/converting-figma-layouts-to-css-grid"
 category: "figma"
 tags:
   - "Figma"

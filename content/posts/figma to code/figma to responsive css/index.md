@@ -3,7 +3,7 @@ title: "How to approach Figma to responsive CSS conversion"
 date: "2023-06-17"
 template: "post"
 draft: false
-slug: "figma/converting-figma-to-responsive-css"
+slug: "posts/converting-figma-to-responsive-css"
 category: "figma"
 tags:
   - "Figma"
