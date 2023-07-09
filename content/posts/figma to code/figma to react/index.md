@@ -35,13 +35,13 @@ Figma’s collaborative nature sets it apart from many other design tools. Multi
 
 React stands out for its component-based architecture. This allows developers to break down complex UIs into simpler components, making the code more manageable and the application more scalable. Each component in React has its lifecycle and is responsible for rendering a part of the UI. As a result, a change in one component doesn't affect the others, leading to more efficient updates and less buggy code.
 
-## Top 5 tools to convert Figma to React code
+## Top 4 tools to convert Figma to React code
 
 In this section, we are going to review a few popular Figma to React tools that are available in the market.
 
 We will see their pros and cons and test their effectiveness by converting the following design to a React app using these tools:
 
-**Note:** Please remember that whatever we have written about these tools is not based on what we have read on the internet but on what we have experienced while using these products while converting our design from Figma to React.
+**Note:** Please remember that whatever we have written about these tools is not based on what we have read on the internet but on what we have experienced while using these products when converting our design from Figma to React.
 
 ### Anima
 
@@ -101,7 +101,7 @@ It created several components for text like `<TextRegular>`, `<TextMedium>`, `<T
 
 Anima allows you to add multiple Figma frames for desktop, tablet, and mobile designs and export them to an Anima project. This ensures that your website looks native to each breakpoint and device. However, again instead of using Flexbox or Grid, it used positioning to align elements, and if you are using multiple frames, it will create separate designs for each frame.
 
-**For example:** If you are using two frames, one of 1440px and the other of 375px. It will create two different designs for both screens. The default 375px design will be used for the pixels from 0 to 1439. Up to that point, `display: none`; will be used on the 1440px design to hide it from the UI, and once the resolution of the screen touches 1440px, it will be shown on the UI, and the other mobile design will now be hidden using `display: none`;
+**For example:** Suppose, you are using two frames, one of 1440px and the other of 375px. It will create two different designs for both screens. The default 375px design will be used for the pixels from 0 to 1439. Up to that point, `display: none`; will be used on the 1440px design to hide it from the UI, and once the resolution of the screen touches 1440px, it will be shown on the UI, and the other mobile design will now be hidden using `display: none`;
 
 Another issue is that it assigns Figma node names to classNames and components. We don't think this is the right way because, in the real working environment, your designer won't know how to name things from a programming context.
 
