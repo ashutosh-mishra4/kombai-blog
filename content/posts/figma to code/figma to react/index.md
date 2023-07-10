@@ -81,7 +81,7 @@ Anima also has integrations available with apps like AWS Amplify, Vercel, Fireba
 
 #### How to use Anima?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cruv77LQXRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZstoRFMp-oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Step 1:** Create an account on [Anima](https://projects.animaapp.com/signup) and install the Anima Figma plugin from [here](https://www.figma.com/community/plugin/857346721138427857/Export-to-React%2C-HTML-%26-Vue-code-with-Anima/Anima---Figma-to-React-and-HTML).
 
