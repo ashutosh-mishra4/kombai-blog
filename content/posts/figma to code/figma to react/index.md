@@ -308,7 +308,7 @@ It also allows you to visually add media queries, which is a great feature, by t
 
 ## Wrapping Up
 
-We have spent over a year playing with these tools, identifying the missing gaps in the market, and working on our solution. From our experience, we have seen that existing tools try their best to give developers the necessary tools to ease their work and make them more productive.
+We have spent over a year playing with these tools, identifying the missing gaps in the market, and working on our solution. From our experience, we have seen that existing products try their best to give developers the necessary tools to ease their work and make them more productive.
 
 But what mistake they make is they don't take the right approach of focusing on generating human readable, and maintainable code. And we are excited to announce that very soon, we are going to launch our own tool that tries to solve this problem and help developers become more productive.
 
