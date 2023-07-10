@@ -25,11 +25,21 @@ We will review them thoroughly, test them on our design, and judge them based on
 
 ### What is Figma?
 
+![](./images/Figma.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://www.figma.com/">Figma</a></em></p>
+
 [Figma](https://www.figma.com/) is a cloud-based UI/UX design application that provides a workspace for teams to collaborate in real time. As a design tool, Figma offers a variety of features that make it an excellent choice for designers. These include vector editing, prototyping, and design components that allow designers to build effectively and efficiently.
 
 Figma’s collaborative nature sets it apart from many other design tools. Multiple team members can work on a design simultaneously, making it a perfect choice for large teams and complex projects. Additionally, as it's browser-based, you can access your work from anywhere, making it incredibly flexible and portable.
 
 ### What is React?
+
+![](./images/React.png)
+
+<p style="text-align: center">
+<em>Source: <a href="https://react.dev/">React</a></em></p>
 
 [React](https://react.dev/), on the other hand, is a JavaScript library for building user interfaces developed and maintained by Meta. React allows developers to create large web applications that update and render efficiently in response to data changes.
 
@@ -41,9 +51,13 @@ In this section, we are going to review a few popular Figma to React tools that 
 
 We will see their pros and cons and test their effectiveness by converting the following design to a React app using these tools:
 
+![](./images/test-design.png)
+
 **Note:** Please remember that whatever we have written about these tools is not based on what we have read on the internet but on what we have experienced while using these products when converting our design from Figma to React.
 
 ### Anima
+
+![](./images/Anima.png)
 
 [Anima](https://www.animaapp.com/) is a popular design-to-code automation tool. It helps in converting your designs to HTML/CSS, Vue, and React code. Its Figma plugin allows you to export single or multiple frames to code in no time. For styling, it gives you the option to choose between CSS, Styled Components, and Saas.
 
@@ -66,6 +80,8 @@ Anima also has integrations available with apps like AWS Amplify, Vercel, Fireba
 - Names components and classNames on Figma nodes.
 
 #### How to use Anima?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cruv77LQXRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Step 1:** Create an account on [Anima](https://projects.animaapp.com/signup) and install the Anima Figma plugin from [here](https://www.figma.com/community/plugin/857346721138427857/Export-to-React%2C-HTML-%26-Vue-code-with-Anima/Anima---Figma-to-React-and-HTML).
 
@@ -91,6 +107,8 @@ Although Anima accurately translates the design to code, the code output it gene
 
 **For single frame in Inspect mode:**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7PNFToLfYNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Instead of using Flexbox or Grid, it uses position: absolute almost everywhere to align elements. This makes it impossible for us to design responsively without rewriting the entire codebase.
 
 It failed to identify interactive elements. Example: Instead of creating an `<input>` element for the search bar, it created an `<p>` element with the placeholder text wrapped in another div.
@@ -106,6 +124,8 @@ Anima allows you to add multiple Figma frames for desktop, tablet, and mobile de
 Another issue is that it assigns Figma node names to classNames and components. We don't think this is the right way because, in the real working environment, your designer won't know how to name things from a programming context.
 
 ### Locofy
+
+![](./images/Locofy.png)
 
 [Locofy](https://www.locofy.ai/) is another popular design to code conversion tool that helps you generate frontend code for mobile and web. It has a separate web platform, as well as Figma and Adobe XD plugins. It allows you to generate HTML/CSS, React, React Native, Next.js, Gatsby, and Vue code in JavaScript or TypeScript.
 
@@ -133,6 +153,8 @@ For the styling part, you can instruct the plugin to use CSS, CSS Modules, Tailw
 
 #### How to use Locofy?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qUz8G6G0nH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Step 1:** Create an account on [Locofy](https://www.locofy.ai/signup) and install its Figma plugin from [here](<https://www.figma.com/community/plugin/1056467900248561542/Locofy---Figma-to-React-code-(BETA)/Locofy-FREE-BETA---Figma-to-React%2C-React-Native%2C-HTML%2FCSS%2C-Next.js%2C-Gatsby%2C-Vue>).
 
 **Step 2:** Open a Figma design and run Locofy.
@@ -151,11 +173,23 @@ Based on our interaction with the tool, we have found that it's not the perfect 
 
 Right from the beginning, you have to structure your Figma design in such a way that's best suited for Locofy to work properly. Apart from the structure, it also requires you to do proper naming of the Figma nodes because it's going to be used in the code. This would require your designers to come on the same page as developers and would distract them from their real craft to focus on details that shouldn't be important to them.
 
+![](./images/Locofy-js.png)
+
+<p style="text-align: center">
+<em>The code output is filled with divs for all kind of elements</em></p>
+
 The code Locofy generated for us was filled with tons of divs everywhere with only a few `<img>`, `<i>`, `<p>` elements. In most places, it has not even generated a separate `<p>` tag for text, and all the text is inside `<div>` only. We know some of these things can be avoided by tagging them as paragraphs, buttons, input, iframe, etc. But the LocoAI fails to automatically recognize all interactive elements, and manually tagging each element would be too much effort for developers.
+
+![](./images/Locofy-css.png)
+
+<p style="text-align: center">
+<em>Position is used heavily to align elements</em></p>
 
 Again, similar to Anima, Locofy has also generated code filled with `position: absolute` and `position: relative`. In real-world development, the alignment of elements is done with either flexbox or grid, and positions are used only when you want to break out of the natural alignment of elements. In such a code, the moment you try to change the resolution of the screen, your design breaks.
 
 ### DhiWise
+
+![](./images/DhiWise.png)
 
 Similar to Locofy, [DhiWise](https://www.dhiwise.com/) allows you to import your Figma designs into their builder. DhiWise is primarily a design to code platform for mobile with options to generate code for Flutter, Android, and iOS, but it allows you to generate React code.
 
@@ -181,6 +215,8 @@ Apart from converting frames to codes, it also allows you to setup navigation, a
 
 #### How to use Dhiwise?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Own8EeMmn5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Step 1:** Create an account on [Dhiwise](https://app.dhiwise.com/sign-up) and install the Figma plugin from [here](https://www.figma.com/community/plugin/1037309320238203168/DhiWise---Figma-to-Code).
 
 **Step 2:** Open your Figma file and run Dhiwise plugin.
@@ -203,6 +239,8 @@ Apart from converting frames to codes, it also allows you to setup navigation, a
 
 It turns out that DhiWise was not at all useful when we converted our design from Figma to React. It gave us the following result for our design:
 
+![](./images/DhiWise-output.png)
+
 Although it provides a visual editor to make further changes but that would work only when you have to make minor adjustments. If the design is fundamentally broken, you have no other option except to rebuild everything from scratch.
 
 There is no auto component creation feature for React in DhiWise. So, it generates all the code in a single component file only except a few components for Text, Image, etc. But thankfully, it allows you to create your own components within the builder.
@@ -211,7 +249,11 @@ Unlike Anima and Locofy, DhiWise only gives you the option to generate Tailwind 
 
 ### TeleportHQ
 
-[TeleportHQ](https://teleporthq.io/) is a visual UI builder for static websites. Similar to Locofy and DhiWise, it allows you to push your designs to its builder from Figma, from where you can modify the design and either ship the code or download it locally. TeleportHQ allows you to export your code to React, Next.js, Gatsby, Vue, Angular, Preact, React Native, and Stencil. Apart from that, it also provides you with free static templates to build websites right from its builder.
+![](./images/TeleportHQ.png)
+
+[TeleportHQ](https://teleporthq.io/) is a visual UI builder for static websites. Similar to Locofy and DhiWise, it allows you to push your designs to its builder from Figma, from where you can modify the design and either ship the code or download it locally.
+
+TeleportHQ allows you to export your code to React, Next.js, Gatsby, Vue, Angular, Preact, React Native, and Stencil. Apart from that, it also provides you with free static templates to build websites right from its builder.
 
 #### Pros
 
@@ -235,6 +277,8 @@ Unlike Anima and Locofy, DhiWise only gives you the option to generate Tailwind 
 
 #### How to use TeleportHQ?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CkPmHIbBuXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Step 1:** Create an account on [Teleport HQ](https://play.teleporthq.io/signup) and install the Figma plugin from [here](https://www.figma.com/community/plugin/992726161890204477/TeleportHQ---Figma-to-Code---Export-HTML%2C-CSS%2C-React-%26-Vue).
 
 **Step 2:** Open the Figma design and run TeleportHQ plugin.
@@ -249,7 +293,14 @@ Unlike Anima and Locofy, DhiWise only gives you the option to generate Tailwind 
 
 Similar to DhiWise, TeleportHQ's Figma plugin also failed to capture the design elements accurately, which created a distorted version of the final design inside the TeleportHQ builder. You can take a look below:
 
+![](./images/TeleportHQ-output.png)
+
 The good thing is that it has a drag-and-drop builder, unlike, DhiWise, which makes it relatively easy for us to position elements. However, even if we spend hours fixing the design issues, we will be rewarded with a code that is using absolute positioning to align UI elements which will take us hours again to fix.
+
+![](./images/TeleportHQ-js.png)
+
+<p style="text-align: center">
+<em>Components are named on Figma nodes.</em></p>
 
 Similar to previous tools, TeleportHQ also generated each line of code in a single React component. classNames was again based on figma nodes. If you are using Styled Components, then the name of the components will be based on the Figma nodes too, similar to how Anima does it.
 
